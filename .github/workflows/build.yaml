@@ -9,6 +9,7 @@ defaults:
   run:
     shell: bash # Run everything using bash
 
+# Global environment variables
 env:
   # Easy way to set the node version
   NODE_VERSION: '16'
