@@ -5,4 +5,4 @@ Download our clients for macOS and Windows here
 Currently only beta builds
 
 ## Test
-This is all a test for auto update
+This is all a test for auto update and logging
