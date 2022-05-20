@@ -58,7 +58,7 @@ jobs:
       - name: Create release draft
         uses: softprops/action-gh-release@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           # Populate the inputs of the release we already know
           tag_name: v${{steps.ref.outputs.version}}
@@ -104,7 +104,7 @@ jobs:
       - name: Build NSIS installer (x64)
         run: npm run dist-win-x64
         env:
-          GH_TOKEN: ${{ secrets.GH_PAT }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
        #   CSC_LINK: ${{ secrets.WIN_CERT_2025_03_15 }}
        #   CSC_KEY_PASSWORD: ${{ secrets.WIN_CERT_PASS_2025_03_15 }}
       # Now we need to cache all artifacts. We create one artifact per build
@@ -153,4 +153,4 @@ jobs:
           CSC_KEY_PASSWORD: ${{ secrets.MACOS_CERT_PASSWORD }}
           APPLE_ID: ${{ secrets.APPLE_ID }}
           APPLE_ID_PASSWORD: ${{ secrets.APPLE_ID_PASSWORD }}
-          GH_TOKEN: ${{ secrets.GH_PAT }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
