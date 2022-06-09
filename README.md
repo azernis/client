@@ -5,4 +5,4 @@ Download our clients for macOS and Windows here
 Currently only beta builds
 
 ## Test
-Let's test if it still runs
+Does it still run?
