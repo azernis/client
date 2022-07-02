@@ -105,8 +105,8 @@ jobs:
         run: npm run dist-win-x64
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-       #   CSC_LINK: ${{ secrets.WIN_CERT_2025_03_15 }}
-       #   CSC_KEY_PASSWORD: ${{ secrets.WIN_CERT_PASS_2025_03_15 }}
+          CSC_LINK: ${{ secrets.WIN_CERT }}
+          CSC_KEY_PASSWORD: ${{ secrets.WIN_CERT_PASS }}
       # Now we need to cache all artifacts. We create one artifact per build
       # step. It should be noted that "artifacts" are more like file shares.
       # Thus they can contain multiple files.

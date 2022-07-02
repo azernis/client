@@ -5,4 +5,4 @@ Download our clients for macOS and Windows here
 Currently only beta builds
 
 ## Test
-Now we are at it
+Now we are at it windows
