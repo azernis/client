@@ -4,6 +4,4 @@ Download our clients for macOS and Windows here
 ## Beta
 Currently only beta builds
 
-
-### New:
-- Design for GN
+v 0.0.16
