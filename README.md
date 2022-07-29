@@ -5,3 +5,5 @@ Download our clients for macOS and Windows here
 Currently only beta builds
 
 
+### New:
+- Design for GN
