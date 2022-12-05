@@ -4,4 +4,4 @@ Download our clients for macOS and Windows here
 ## Beta
 Currently only beta builds
 
-v 0.1.1
+v 0.1.2
