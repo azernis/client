@@ -1,4 +1,4 @@
 # client
 Download our clients for macOS and Windows here
 
-v 1.0.2
+v 1.0.3
